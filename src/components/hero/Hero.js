@@ -1,5 +1,5 @@
 import React from 'react'
-// import Video from '../../videos/video.mp4'
+import Video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper } from './HeroComponents'
 import { Button } from '../ButtonElements'
 
@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <HeroContainer id="hero">
             <HeroBg>
-                {/* <VideoBg controls autoPlay loop muted src={Video} type='video/mp4' /> */}
+                <VideoBg controls autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>
